@@ -11,5 +11,6 @@ git commit -m "Initial commit with example.txt"
  git commit --amend --no-edit
  git commit --amend -m "Gurashish Lab 3"
  "Gur 1 " | Out-File "file1.txt"
- "Gur 2 " | Out-File "file1.txt"
+ "Gur 2 " | Out-File "file2.txt"
  git add .
+ git commit -m "Added file1.txt and file2.txt"
